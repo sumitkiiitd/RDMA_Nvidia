@@ -1,2 +1,2 @@
 # RDMA_Nvidia
-It contain the course matrial of RDMA programming traning with is provided by nvidia,
+It contains the course material of RDMA programming training with is provided by nvidia.
