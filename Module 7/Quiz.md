@@ -155,17 +155,17 @@ Which of the following is the correct order of operations that is required to re
 **RDMA Programming**
 Which of the following is the correct order of operations that is required to release resources for RDMA applications (Select the correct answer):
 
-- [x]1.ibv_destroy_QP and ibv_destroy_CQ - to destroy the queue pair and the completion queue respectively.
-     2.ibv_dereg_mr– to deregister the memory region used for sending and receiving data
-     3.If a completion channel was used, ibv_close_device is used to destroy it.
-     4.Call free() to free the memory used for the buffer and the context itself.
+- [x] 1.ibv_destroy_QP and ibv_destroy_CQ - to destroy the queue pair and the completion queue respectively.
+      2.ibv_dereg_mr– to deregister the memory region used for sending and receiving data
+      3.If a completion channel was used, ibv_close_device is used to destroy it.
+      4.Call free() to free the memory used for the buffer and the context itself.
 
 
 
-- [ ]1.Call free() to free the memory used for the buffer and the context itself.<br>
-     2.If a completion channel was used, ibv_close_device is used to destroy it.<br>
-     3.ibv_dereg_mr– to deregister the memory region used for sending and receiving data.<br>
-     4.ibv_destroy_QP and ibv_destroy_CQ - to destroy the queue pair and the completion queue respectively.
+- [ ] 1.Call free() to free the memory used for the buffer and the context itself.<br>
+      2.If a completion channel was used, ibv_close_device is used to destroy it.<br>
+      3.ibv_dereg_mr– to deregister the memory region used for sending and receiving data.<br>
+      4.ibv_destroy_QP and ibv_destroy_CQ - to destroy the queue pair and the completion queue respectively.
 
 
 
